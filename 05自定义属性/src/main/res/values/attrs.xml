@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声明一个属性集合  ， 名字可以随机起，建议有意义 -->
+    <!--format format 常用类型
+        reference 引用
+        color 颜色
+        boolean 布尔值
+        dimension 尺寸值
+        float 浮点值
+        integer 整型值
+        string 字符串
+        enum 布 -->
+    <declare-styleable name="MyAttrsView">
+        <!-- reference引用 参考-->
+        <attr name="my_bg" format="reference"></attr>
+        <!-- 声明integer类型-->
+        <attr name="my_age" format="integer"></attr>
+        <!-- 声明String类型 -->
+        <attr name="my_name" format="string"></attr>
+    </declare-styleable>
+</resources>
